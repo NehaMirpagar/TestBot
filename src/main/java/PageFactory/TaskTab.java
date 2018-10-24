@@ -2,6 +2,7 @@ package PageFactory;
 
 
 import TechnicalKeyword.TechnicalKeyword;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,10 +10,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 
-
 public class TaskTab {
 
     WebDriver driver;
+
     TechnicalKeyword technicalKeyword = new TechnicalKeyword();
     String taskNameNewVerify;
 
@@ -116,10 +117,12 @@ public class TaskTab {
     }
 
     public void DueDate() {
-        dueDate.click();
+        dueDate.clear();
+        dueDate.sendKeys("10-11-2018 15:48:21");
     }
+
     public void ClientName() {
-        getClientName().selectByVisibleText("Rewise");
+        getClientName().selectByVisibleText("Testing");
     }
 
     public void Description() {
@@ -128,7 +131,7 @@ public class TaskTab {
     }
 
     public void Assignee() {
-        getAssignee().selectByVisibleText("NehaTest S");
+        getAssignee().selectByVisibleText("N T");
     }
 
     public void SaveButton() {
@@ -138,9 +141,12 @@ public class TaskTab {
 
 
     public Boolean verifyTaskName() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
         Boolean isFound = false;
         while (!isFound && nextButton.isEnabled()){
                 isFound = technicalKeyword.elementExists(driver, taskListTable, taskNameNewVerify, 1);
+                js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
                 nextButton.click();
             }
          return isFound;

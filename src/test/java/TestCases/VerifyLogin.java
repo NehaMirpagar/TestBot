@@ -1,4 +1,4 @@
-package TestCases;
+/*package TestCases;
 import PageFactory.LoginPage;
 import TestSetUp.TestSetUp;
 import org.openqa.selenium.WebDriver;
@@ -35,4 +35,4 @@ public class VerifyLogin extends TestSetUp {
     }
 
 
-}
+}*/

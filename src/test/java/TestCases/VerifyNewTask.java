@@ -1,12 +1,10 @@
-package TestCases;
+/*package TestCases;
 
 import PageFactory.LoginPage;
 import PageFactory.TaskTab;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-
-import static TestSetUp.TestSetUp.initBrowser;
 
 public class VerifyNewTask {
 
@@ -17,7 +15,7 @@ public class VerifyNewTask {
     public void VerifyCreatedTask()
     {
         //Launch browser and specific url
-        driver = initBrowser("Chrome", "https://theservicebot.com/TMSStaging");
+      //  driver = initBrowser("Chrome", "https://theservicebot.com/TMSStaging");
 
         //Created Page Object using PageFactory
         LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
@@ -31,3 +29,4 @@ public class VerifyNewTask {
 
     }
 }
+*/

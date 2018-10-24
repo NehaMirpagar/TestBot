@@ -10,7 +10,6 @@ public class UserPage {
 
     WebDriver driver;
     TechnicalKeyword technicalKeyword = new TechnicalKeyword();
-    String userNewVerify;
     String first_Name, last_Name;
 
     @FindBy(id = "liUser")
@@ -28,10 +27,8 @@ public class UserPage {
     @FindBy(id = "UserMasters_LastName")
     public WebElement lastNameText;
 
-    @FindBy(id = "dllCohort")
-    public WebElement cohort;
 
-    @FindBy(id = "dll")
+    @FindBy(id = "dllRole")
     public WebElement role;
 
     @FindBy(id = "UserMasters_EmailId")
@@ -75,7 +72,7 @@ public class UserPage {
     }
 
 
-    public void createNewUser(String firstName, String middleName, String lastName, String cohort1, String role1,
+    public void createNewUser(String firstName, String middleName, String lastName, String role1,
                               String emailId, String contact, String dateOfBirth, String country1, String state1,
                               String suburb1, String dateOfJoining, String zipCode  ) {
 
@@ -86,7 +83,6 @@ public class UserPage {
         technicalKeyword.enterText(driver,firstNameText, first_Name);
         technicalKeyword.enterText(driver, middleNameText, middleName);
         technicalKeyword.enterText(driver,lastNameText, last_Name);
-        technicalKeyword.selectDropDown(cohort, cohort1);
         technicalKeyword.selectDropDown(role, role1);
         technicalKeyword.enterText(driver, emailIdText, emailId);
         technicalKeyword.enterText(driver,contactText, contact);

@@ -5,12 +5,10 @@ import PageFactory.UserPage;
 import TechnicalKeyword.TechnicalKeyword;
 import TestSetUp.TestSetUp;
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;
@@ -30,7 +28,7 @@ public class MyStepdefs extends TestSetUp {
     public void user_is_on_login_page() {
 
        // Launch browser and specific url
-       driver = initBrowser("chrome", "https://taskbot.in/");
+       driver = initBrowser("chrome", "https://theservicebot.com/TMSStaging");
     }
 
      @When("^he provides valid credentials$")
@@ -96,7 +94,6 @@ public class MyStepdefs extends TestSetUp {
         userPage.createNewUser(list.get(0).get("firstName"),
                 list.get(0).get("middleName"),
                 list.get(0).get("lastName"),
-                list.get(0).get("cohort"),
                 list.get(0).get("role"),
                 list.get(0).get("emailId"),
                 list.get(0).get("contact"),
@@ -114,7 +111,7 @@ public class MyStepdefs extends TestSetUp {
         Assert.assertEquals(true, userPage.verifyNewUser());
     }
 
-    @When("^clicks on add attachment$")
+/*    @When("^clicks on add attachment$")
     public void clicksOnAddAttachment() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
@@ -124,5 +121,5 @@ public class MyStepdefs extends TestSetUp {
     public void theNewAttachmentShouldBeSuccessfullyAdded() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
-    }
+    }*/
 }
