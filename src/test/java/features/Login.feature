@@ -4,6 +4,6 @@ Feature: Login
   Scenario: Login valid
     Given user is on login page
     When he provides valid credentials
-    |Username                        |Password  |
-    |vaibhav.bhosale@rewiseglobal.com|vaibhav123|
+    |Username|Password  |
+    |user1   |pass1     |
     Then he should be able to login successfully

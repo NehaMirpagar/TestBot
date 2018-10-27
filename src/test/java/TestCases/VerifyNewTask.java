@@ -21,7 +21,7 @@ public class VerifyNewTask {
         LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
 
         //Call the method
-        //login_page.loginToTDS("nilesh@gmail.com","test");
+        //login_page.loginToTDS("user1");
 
         TaskTab taskTab= PageFactory.initElements(driver, TaskTab.class);
        // taskTab.CreateNewTask();

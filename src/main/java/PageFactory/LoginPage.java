@@ -47,8 +47,8 @@ public class LoginPage{
 
     public void FillInDetails(){
 
-        Username("nehavtayade@gmail.com");
-        Password("test");
+        Username("user1");
+        Password("pass");
 
 
     }

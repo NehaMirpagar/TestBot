@@ -20,8 +20,8 @@ public class VerifyLogin extends TestSetUp {
         LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
 
         //Call the method
-       login_page.Username("vaibhav.bhosale@rewiseglobal.com");
-       login_page.Password("test");
+       login_page.Username("user1");
+       login_page.Password("pass");
        login_page.LoginButton();
 
         //Verify the HomePage URL or Login Successful
