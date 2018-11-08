@@ -5,5 +5,5 @@ Feature: Login
     Given user is on login page
     When he provides valid credentials
     |Username|Password       |
-    |user1  |user123     |
+    |vaibhav.bhosale@rewiseglobal.com  |vaibhav123     |
     Then he should be able to login successfully
