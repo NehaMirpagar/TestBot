@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a0ce91-2b2e-44eb-b64d-474651810743" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageFactory/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageFactory/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/VerifyLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/VerifyLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/VerifyNewTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/VerifyNewTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/VerifyLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/VerifyNewTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/CucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/CucumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Task.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Task.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/UserPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/UserPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageFactory/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageFactory/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageFactory/UserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageFactory/UserPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner/CucumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner/CucumberTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,29 +106,35 @@
         <counts>
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="html" value="3" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="31" />
-          <entry key="java" value="23" />
+          <entry key="feature" value="95" />
+          <entry key="java" value="157" />
+          <entry key="xml" value="256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="31" />
-          <entry key="JAVA" value="23" />
+          <entry key="Cucumber" value="95" />
+          <entry key="JAVA" value="157" />
+          <entry key="XML" value="256" />
         </counts>
       </usages-collector>
     </session>
@@ -130,52 +142,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PageFactory/UserPage.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="106">
+              <caret line="119" column="91" selection-start-line="119" selection-start-column="91" selection-end-line="119" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/VerifyLogin.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/CucumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/VerifyNewTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TechnicalKeyword/TechnicalKeyword.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageFactory/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="715">
+              <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,10 +187,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/cucumber/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/features/UserPage.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+            <state relative-caret-position="119">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -207,8 +203,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/features/Login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -216,8 +212,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/features/Task.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -257,10 +253,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/StepDef/MyStepdefs1.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/StepDef/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/LoginPageActions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/Task.feature" />
         <option value="$PROJECT_DIR$/src/main/java/TechnicalKeyword/TechnicalKeyword.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/AttachmentPage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/features/Attachment.feature" />
@@ -268,13 +262,15 @@
         <option value="$PROJECT_DIR$/src/main/java/PageFactory/AttachmentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageFactory/TaskTab.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestRunner/CucumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageFactory/UserPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/Login.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/PageFactory/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/UserPage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/VerifyLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/VerifyNewTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/Task.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/features/UserPage.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/TestRunner/CucumberTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/features/Login.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/PageFactory/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -297,10 +293,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="687" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -337,6 +332,14 @@
               <item name="TestBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PageFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -352,14 +355,46 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestRunner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-reports-html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-reports-html" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-html-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -367,7 +402,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540525014967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541674973226" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -470,7 +505,7 @@
       </method>
     </configuration>
     <configuration name="CucumberTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="RevisedTDS" />
+      <module name="maven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestRunner.*" />
@@ -479,6 +514,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestRunner" />
       <option name="MAIN_CLASS_NAME" value="TestRunner.CucumberTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -591,34 +628,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CucumberTest - 2018.10.24 at 12h 52m 17s.xml">
-      <configuration name="CucumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberTest - 2018.10.24 at 13h 06m 06s.xml">
-      <configuration name="CucumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberTest - 2018.10.24 at 13h 10m 51s.xml">
-      <configuration name="CucumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberTest - 2018.10.24 at 13h 13m 40s.xml">
-      <configuration name="CucumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberTest - 2018.10.24 at 13h 18m 29s.xml">
-      <configuration name="CucumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberTest - 2018.10.24 at 15h 38m 28s.xml">
-      <configuration name="CucumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberTest - 2018.10.24 at 15h 40m 12s.xml">
-      <configuration name="CucumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberTest - 2018.10.24 at 15h 54m 16s.xml">
-      <configuration name="CucumberTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CucumberTest - 2018.10.24 at 15h 57m 40s.xml">
       <configuration name="CucumberTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CucumberTest - 2018.10.24 at 16h 00m 44s.xml">
+      <configuration name="CucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTest - 2018.11.08 at 15h 26m 53s.xml">
+      <configuration name="CucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTest - 2018.11.08 at 15h 30m 31s.xml">
+      <configuration name="CucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTest - 2018.11.08 at 15h 32m 35s.xml">
+      <configuration name="CucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTest - 2018.11.08 at 17h 17m 33s.xml">
+      <configuration name="CucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTest - 2018.11.08 at 17h 20m 10s.xml">
+      <configuration name="CucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTest - 2018.11.08 at 17h 30m 29s.xml">
+      <configuration name="CucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTest - 2018.11.08 at 17h 49m 31s.xml">
+      <configuration name="CucumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTest - 2018.11.08 at 17h 52m 29s.xml">
       <configuration name="CucumberTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -626,7 +663,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28214827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -898,9 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageFactory/AttachmentPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -918,27 +952,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/CucumberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/VerifyNewTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state>
+          <caret column="9" selection-start-column="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/VerifyLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TechnicalKeyword/TechnicalKeyword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../work/CucumberReport/imademethink_cucumber_reporting_masterthought/src/test/java/com/cucumberreporting/masterthoughtreporting/testRunner/CucumberTestRunnerMasterthoughtReporting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../work/CucumberReport/imademethink_cucumber_reporting_masterthought/src/test/java/com/cucumberreporting/masterthoughtreporting/StepDefinitions/AllStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageFactory/UserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="86" column="62" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/Task.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -952,71 +1010,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageFactory/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/target/cucumber-reports-html/cucumber-html-reports/overview-features.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/MyStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        <state relative-caret-position="715">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/MyStepdefs.java">
+    <entry file="file://$PROJECT_DIR$/target/cucumber/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/CucumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-reports-html/cucumber-html-reports/feature-overview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="119" column="91" selection-start-line="119" selection-start-column="91" selection-end-line="119" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/UserPage.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+        <state relative-caret-position="119">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/Login.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TechnicalKeyword/TechnicalKeyword.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageFactory/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+        <state relative-caret-position="187">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageFactory/UserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/VerifyLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/VerifyNewTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>

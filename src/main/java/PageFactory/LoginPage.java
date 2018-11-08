@@ -1,6 +1,5 @@
 package PageFactory;
 
-import TechnicalKeyword.TechnicalKeyword;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -48,7 +47,7 @@ public class LoginPage{
     public void FillInDetails(){
 
         Username("user1");
-        Password("pass");
+        Password("user123");
 
 
     }

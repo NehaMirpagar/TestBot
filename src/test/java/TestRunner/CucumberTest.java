@@ -1,15 +1,16 @@
 package TestRunner;
 
-import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"pretty", "html:target/cucumber"},
+        plugin = {"pretty", "html:target/cucumber", "json:target/json/testreport.json"},
         features = "src/test/java/features",
         glue={"TestRunner"},
-        tags = {"@Smoke, ~@Tabulate, @Underscore"}
+        tags = {"@Smoke"}
 
 )
 

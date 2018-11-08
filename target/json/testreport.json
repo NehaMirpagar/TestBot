@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login valid",
+        "description": "",
+        "id": "login;login-valid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31917982688,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "MyStepdefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42257487249,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he provides valid credentials",
+            "match": {
+              "location": "MyStepdefs.he_provides_valid_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "vaibhav.bhosale@rewiseglobal.com",
+                  "vaibhav123"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58882908,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "he should be able to login successfully",
+            "match": {
+              "location": "MyStepdefs.he_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
