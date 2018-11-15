@@ -27,7 +27,6 @@ public class UserPage {
     @FindBy(id = "UserMasters_LastName")
     public WebElement lastNameText;
 
-
     @FindBy(id = "dllRole")
     public WebElement role;
 
